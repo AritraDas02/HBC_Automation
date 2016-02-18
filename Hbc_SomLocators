@@ -1,0 +1,49 @@
+package hbc.locator;
+
+public class SomLocators {
+	
+	/* Log in Page */
+	WebElement USER_NAME=new WebElement("//input[@id='idx_form_TextBox_0']", "SOM username");
+	WebElement PASSWORD=new WebElement("//input[@id='loginPassword']", "SOM password");
+	WebElement LOGIN=new WebElement("//span[@id='dijit_form_Button_0_label']", "SOM button to login");
+	
+	/* 
+	 * Home Page
+	 * Pickup search tab */
+	WebElement PHONE_NUMBER=new WebElement("//input[@id='idx_form_TextBox_0']", "SOM customer phonenumber");
+	WebElement ORDER_NUMBER=new WebElement("//input[@id='idx_form_TextBox_4']", "SOM order number");
+	WebElement FIRST_NAME=new WebElement("//input[@id='idx_form_TextBox_2']", "SOM customer first name");
+	WebElement LAST_NAME=new WebElement("//input[@id='idx_form_TextBox_3']", "SOM customer last name");
+	WebElement EMAIL=new WebElement("//input[@id='idx_form_TextBox_1']", "SOM customer email address");
+	WebElement FIND_PICKUP=new WebElement("//span[@id='dijit_form_Button_0_label']", "SOM button to search pick up orders");
+	WebElement ADVANCED_SEARCH=new WebElement("//a[@class='idxLinkDerived idxLink' and contains(.,'Advanced Search')]", "advanced search link");
+	
+	/* 
+	 * Home Page
+	 * Backroom pick tab */
+	WebElement ORDERS_READY_FOR_PICK=new WebElement("//input[@id='idx_form_NumberTextBox_0']", "Orders ready to be picked stat");
+	WebElement REFRESH=new WebElement("//a[@class='idxLinkDerived idxLink idxLinkHover dijitHover' and contains(.,'Refresh')]", "Refresh button");
+	
+	/*Advanced Search page*/
+	WebElement BACKROOM_PICK_READY=new WebElement("//input[@id='idx_form_CheckBoxList_0_CheckItem0']", "SOM backroom pick check-box");
+	WebElement CUSTOMER_PICK_READY=new WebElement("idx_form_CheckBoxList_0_CheckItem2", "SOM 'ready for customer pickup' check-box");
+	WebElement CUSTOMER_PICKED=new WebElement("//input[@id='idx_form_CheckBoxList_0_CheckItem3']", "SOM  'picked up by customer' check-box");
+	WebElement PICKS_IN_PROGRESS=new WebElement("//input[@id='idx_form_CheckBoxList_0_CheckItem1']", "SOM 'picks in progress' check-box");
+	WebElement ADVANCED_ORDER_NO=new WebElement("//input[@id='idx_form_TextBox_7']", "SOM pickup order number field");
+	WebElement INCLUDE_OTHER_STORE_ORDERS=new WebElement("//input[@id='idx_form_CheckBox_0']", "SOM 'include orders being picked up' check-box");
+	WebElement ORDER_BY=new WebElement("//input[@id='idx_form_FilteringSelect_0']", "SOM order by drop down");
+	WebElement PICKUP_RECIPIENT=new WebElement("//input[@id='idx_form_CheckBox_1']", "SOM customer 'is pickup recipient' check-box");
+	WebElement CUST_PHONE_NO=new WebElement("//input[@id='idx_form_TextBox_12']", "SOM customer phone number input ");
+	WebElement CUST_EMAIL=new WebElement("//input[@id='idx_form_TextBox_13']", "SOM customer email input");
+	WebElement CUST_FIRST_NAME=new WebElement("//input[@id='idx_form_TextBox_14']", "SOM customer first name input");
+	WebElement CUST_LAST_NAME=new WebElement("idx_form_TextBox_15", "SOM customer last name input");
+	WebElement SEARCH=new WebElement("//span[@id='dijit_form_Button_5_label']", "SOM advanced search button");
+	
+	/*Pick up order summary page*/
+	WebElement PRINT_PICK_TICKET=new WebElement("(//a[text()='Print Pick Ticket'])[2]", "print pick ticket link");
+	WebElement START_CUSTOMER_PICK=new WebElement("//a[text()='Start Customer Pick']", "start customer pick link");
+	WebElement RECORD_BACKROOM_PICK=new WebElement("//a[text()='Record Backroom Pick']", "Record backroom Pick link");
+	WebElement PRINT_RECEIPT=new WebElement("//a[text()='Print Receipt']", "Print receip link");
+	
+
+}
