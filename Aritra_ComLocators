@@ -1,0 +1,132 @@
+package hbc.locator;
+
+public class ComLocators {
+	
+	/*Home Page*/
+	WebElement SEARCH_PRODUCT=new WebElement("//input[@id='dijit_form_TextBox_0']", "Product search input at the top right");
+	WebElement MAGNIFIER=new WebElement("//span[@class='dijitReset dijitInline dijitIcon idxHeaderSearchButton']", "Magnifier search icon at top right");
+	WebElement USER_NAME_DROP_DOWN=new WebElement("(//span[@class='idxHeaderDropDownArrow'])[2]", "drop down on the right side of the user name");
+	WebElement LOGOUT=new WebElement("//td[@id='dijit_MenuItem_2_text']", "Logout option top right corner");
+	
+	/*Home Page
+	 * Related Task tab
+	 */
+	WebElement RETURN_SEARCH=new WebElement("//a[text()='Return Search']", "Return search link under related task tab");
+	WebElement CUSTOMER_SEARCH=new WebElement("//a[text()='Customer Search']", "Customer search link");
+	WebElement CREATE_CONSUMER=new WebElement("(//a[text()='Create Consumer'])[1]", "Create consumer link");
+	WebElement ORDER_SEARCH=new WebElement("(//a[text()='Order Search'])[1]", "Order search link");
+	
+	/*Order Search page*/
+	WebElement ORDER_SEARCH_EMAIL=new WebElement("//input[@id='idx_form_TextBox_13']", "Order search email");
+	WebElement ORDER_SEARCH_SUBMIT=new WebElement("//span[@id='dijit_form_Button_19']", "Order search button");
+	WebElement ORDER_SEARCH_NEXT=new WebElement("//span[@id='dijit_form_Button_38']", "next button");
+	
+	/*Create Consumer Pop up*/
+	WebElement CONSUMER_ENTERPRISE=new WebElement("//input[@id='idx_form_FilteringSelect_61']", "Consumer enterprise dropdown input inside pop up");
+	
+	/* Create consumer page
+	 * Contact information tab
+	 */
+	WebElement CONSUMER_FIRSTNAME=new WebElement("//input[@id='idx_form_TextBox_112']", "First name input");
+	WebElement CONSUMER_MIDDLENAME=new WebElement("//input[@id='idx_form_TextBox_113']", "Middle name input");
+	WebElement CONSUMER_LASTNAME=new WebElement("//input[@id='idx_form_TextBox_114']", "last name input");
+	WebElement CONSUMER_TITLE=new WebElement("//input[@id='idx_form_FilteringSelect_62']", "title input");
+	WebElement CONSUMER_JOBTITLE=new WebElement("//input[@id='idx_form_TextBox_115']", "jobtitle input");
+	WebElement CONSUMER_DEPARTMENT=new WebElement("//input[@id='idx_form_TextBox_116']", "department input");
+	WebElement CONSUMER_STATUS=new WebElement("//input[@id='idx_form_FilteringSelect_63']", "status input");
+	WebElement CONSUMER_EMAIL=new WebElement("//input[@id='idx_form_TextBox_117", "email input");
+	WebElement CONSUMER_MOBILE=new WebElement("//input[@id='idx_form_TextBox_118']", "mobile phone input");
+	WebElement CONSUMER_TELEPHONE=new WebElement("//input[@id='idx_form_TextBox_119']", "telephone input");
+	WebElement CONSUMER_EVENING_PHONE=new WebElement("//input[@id='idx_form_TextBox_120", "evening phone input");
+	WebElement CONSUMER_DAY_FAX=new WebElement("//input[@id='idx_form_TextBox_121']", "consumer day fax input");
+	WebElement CONSUMER_EVENING_FAX=new WebElement("//input[@id='idx_form_TextBox_122']", "consumer evening fax input");
+	WebElement CONSUMER_LANGUAGE=new WebElement("//input[@id='idx_form_FilteringSelect_64']", "consumer language dropdown input");
+	
+	/*Create consumer page
+	 * ship to tab
+	 */
+	WebElement SHIP_TO_ADD=new WebElement("(//a[text()='Add'])[1]", "consumer ship to details add link");
+	
+	/*Create consumer page
+	 * ship to tab
+	 * ship to pop up
+	 */
+	WebElement CONSUMER_REGION=new WebElement("//input[@id='idx_form_FilteringSelect_73']", "consumer country/region dropdown input");
+	WebElement CONSUMER_ADDRESS_LINE1=new WebElement("//input[@id='idx_form_TextBox_154']", "consumer address line 1 input");
+	WebElement CONSUMER_ADDRESS_LINE2=new WebElement("//input[@id='idx_form_TextBox_155']", "consumer address line 1 input");
+	WebElement CONSUMER_CITY=new WebElement("//input[@id='idx_form_TextBox_156']", "consumer city input");
+	WebElement CONSUMER_STATE=new WebElement("//input[@id='idx_form_FilteringSelect_75']", "consumer state input");
+	WebElement CONSUMER_POSTAL_CODE=new WebElement("//input[@id='idx_form_TextBox_158']", "consumer postal code input");
+	WebElement CONSUMER_ADDRESS_DESCRIPTION=new WebElement("//input[@id='idx_form_TextBox_159']", "consumer address description input");
+	WebElement CONSUMER_ADDRESS_APPLY=new WebElement("//span[@id='dijit_form_Button_127_label']", "consumer apply button");
+	
+	/* Create consumer page
+	 * Demographics tab
+	 */
+	WebElement CONSUMER_DOB=new WebElement("//input[@id='idx_form_DateTextBox_15']", "consumer date of birth input");
+	WebElement CONSUMER_WEDDING_ANNIVERSERY=new WebElement("//input[@id='idx_form_DateTextBox_17']", "consumer wedding anniversery input");
+	WebElement CONSUMER_SPOUSE_DOB=new WebElement("//input[@id='idx_form_DateTextBox_16']", "consumer's spouse date of birth input");
+	
+	/*Consumer creation successful page
+	 * Related task tab
+	 */
+	WebElement MANAGE_CONSUMER=new WebElement("(//a[text()='Manage Consumer'])[2]", "Manage consumer link");
+	
+	/*Manage consumer page*/
+	WebElement MANAGE_CONSUMER_CONFIRM=new WebElement("//span[@id='dijit_form_Button_145_label']", "consumer manage confirm button");
+	
+	/*Manage consumer page
+	 * Addreses tab
+	 */
+	WebElement CONSUMER_CREATE_ADDRESS=new WebElement("//span[@id='dijit_form_Button_150_label']", "consumer apply button");
+	WebElement CONSUMER_MAKE_DEFAULT_BILL=new WebElement("(//a[text()='Make Default Bill to'])[5]", "make default bill to link");
+	WebElement CONSUMER_MAKE_DEFAULT_SHIP=new WebElement("(//a[text()='Make Default Ship to'])[5]", "make default ship to link");
+	
+	/*Manage consumer page
+	 * Addreses tab
+	 * pop up
+	 */
+	WebElement MANAGE_CONSUMER_REGION=new WebElement("//input[@id='idx_form_FilteringSelect_90']", "consumer country/region dropdown input");
+	WebElement MANAGE_CONSUMER_ADDRESS_LINE1=new WebElement("//input[@id='idx_form_TextBox_191']", "consumer address line 1 input");
+	WebElement MANAGE_CONSUMER_ADDRESS_LINE2=new WebElement("//input[@id='idx_form_TextBox_192']", "consumer address line 1 input");
+	WebElement MANAGE_CONSUMER_CITY=new WebElement("//input[@id='idx_form_TextBox_193']", "consumer city input");
+	WebElement MANAGE_CONSUMER_STATE=new WebElement("//input[@id='idx_form_TextBox_194']", "consumer state input");
+	WebElement MANAGE_CONSUMER_POSTAL_CODE=new WebElement("//input[@id='idx_form_TextBox_195']", "consumer postal code input");
+	WebElement MANAGE_CONSUMER_ADDRESS_DESCRIPTION=new WebElement("//input[@id='idx_form_TextBox_196']", "consumer address description input");
+	WebElement MANAGE_CONSUMER_FIRSTNAME=new WebElement("//input[@id='idx_form_TextBox_185']", "consumer first name input");
+	WebElement MANAGE_CONSUMER_LASTNAME=new WebElement("//input[@id='idx_form_TextBox_186']", "consumer last name input");
+	WebElement MANAGE_CONSUMER_TITLE=new WebElement("//input[@id='idx_form_FilteringSelect_91']", "consumer title input");
+	WebElement MANAGE_CONSUMER_EMAIL=new WebElement("//input[@id='idx_form_TextBox_188']", "consumer email input");
+	WebElement MANAGE_CONSUMER_TELEPHONE=new WebElement("//input[@id='idx_form_TextBox_189']", "consumer telephone input");
+	WebElement MANAGE_CONSUMER_EVENING_PHONE=new WebElement("//input[@id='idx_form_TextBox_190']", "consumer evening phone input");
+	WebElement MANAGE_CONSUMER_ADDRESS_APPLY=new WebElement("//span[@id='dijit_form_Button_154_label']", "consumer apply button");
+	
+	
+	/*Home Page
+	 * Customer tab
+	 */
+	WebElement ENTERPRISE=new WebElement("//input[@id='idx_form_FilteringSelect_0']", "Enterprise dropdown input");
+	WebElement PHONE_NUMBER=new WebElement("//input[@id='idx_form_TextBox_4']", "phone number input under customer tab");
+	WebElement EMAIL=new WebElement("//input[@id='idx_form_TextBox_5']", "email input under customer tab");
+	WebElement FIND_CUSTOMER=new WebElement("//span[@id='dijit_form_Button_2_label']", "find customer button");
+	
+	/*Home Page
+	 * Product tab
+	 */
+	WebElement PRODUCT_ENTERPRISE=new WebElement("//input[@id='idx_form_FilteringSelect_1']", "Enterprise dropdown under product tab");
+	WebElement PRODUCT_KEYWORD=new WebElement("idx_form_TextBox_9", "Keyword input");
+	WebElement FIND_PRODUCT=new WebElement("//span[@id='dijit_form_Button_4_label']", "Find product button");
+	
+	
+	/*Customer Search page*/
+	WebElement CUST_SEARCH_PHONE_NO=new WebElement("//input[@id='idx_form_TextBox_99']", "Phone number input inside customer search page");
+	WebElement CUST_SEARCH_EMAIL=new WebElement("//input[@id='idx_form_TextBox_96']", "email input inside customer search page");
+	WebElement CUST_SEARCH_SUBMIT=new WebElement("//span[@id='dijit_form_Button_79_label']", "Customer search button");
+	
+	/*Return search page*/
+	WebElement RETURN_NO=new WebElement("//input[@id='idx_form_TextBox_10']", "Return number input ");
+	WebElement RETURN_SEARCH_SUBMIT=new WebElement("//span[@id='dijit_form_Button_8_label']", "Return search button ");
+	WebElement CUST_PHONE_NUMBER=new WebElement("//input[@id='idx_form_TextBox_13']", "Customer phone number input");
+	WebElement RETURN_SEARCH_RESULT=new WebElement("(//a[@linkuid='OrderNo'])[1]", "Return search result");
+	WebElement CUST_EMAIL=new WebElement("//input[@id='idx_form_TextBox_14']", "Return search email input");
+}
